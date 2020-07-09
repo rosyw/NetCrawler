@@ -18,7 +18,7 @@ for n in range(0,250,20):
             name = ''
             for j in range(3):
                 cast = movie.get('casts')[j]
-                name += cast.get('name')+'，'
+                name += cast.get('name')+' '
         except:
             name = '无'
         du = movie.get('durations')[0]
